@@ -1,0 +1,7 @@
+Unix
+Internet
+Ubuntu
+Css
+Html
+JS
+React
