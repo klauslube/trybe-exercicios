@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _ [YourNameHere] (LinkDoYourLinkedinHere) _ enquanto estudava em [Trybe] (https://www.betrybe.com/): rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _ [klaus lube] (https://www.linkedin.com/in/klauslube/) _ enquanto estudava em [Trybe] (https://www.betrybe.com/):rocket:
 
 _ "A Trybe é uma escola do futuro para quem quer melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando consegue um bom emprego."
 
@@ -10,18 +10,18 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 ##### Bloco 1: Introdução - Unix e Shell
 
-- [] 1-3: _Unix e Shell- Parte 1_
-- [] 1-4: _Unix e Shell- Parte 2_
+- [X] 1-3: _Unix e Shell- Parte 1_
+- [X] 1-4: _Unix e Shell- Parte 2_
 
 ##### Bloco 2: Git e GitHub
 
-- [] 2-1: _O que é e para que serve? _
-- [] 2-2: _Compreendendo os Comandos_
-- [] 2-3: _Internet - Entendendo como funciona_
+- [X] 2-1: _O que é e para que serve? _
+- [X] 2-2: _Compreendendo os Comandos_
+- [X] 2-3: _Internet - Entendendo como funciona_
 
 ##### Bloco 3: Introdução - HTML e CSS
 
-- [] 3-1: _HTML e CSS - Estruturas de página_
+- [X] 3-1: _HTML e CSS - Estruturas de página_
 - [] 3-2: _HTML e CSS - Introdução ao CSS_
 - [] 3-3: _HTML e CSS - Seletores e posicionamento_
 - [] 3-4: _HTML semântico_
@@ -84,7 +84,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [] 10-3: _Jest - Simulando Comportamentos_
 - [] 10-4: _ [Projeto - Assassin Jest and Mocking] () _
 
-## Desenvolvimento front-end: hourglass_flowing_sand:
+## Desenvolvimento front-end:hourglass_flowing_sand:
 
 ##### Bloco 11: Introdução - Reagir
 
@@ -140,7 +140,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 - [] 19-1: _ [Projeto - Aplicativo de Receita] () _
 
-## Desenvolvimento de back-end: hourglass_flowing_sand:
+## Desenvolvimento de back-end:hourglass_flowing_sand:
 
 ##### Bloco 20: Introdução - Bancos de dados relacionais
 
@@ -236,7 +236,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 - [] 34-1: _ [Projeto - Trybeer V2] () _
 
-## Ciência da Computação: hourglass_flowing_sand:
+## Ciência da Computação:hourglass_flowing_sand:
 
 ##### Bloco 35: Introdução - Ciência da Computação
 
