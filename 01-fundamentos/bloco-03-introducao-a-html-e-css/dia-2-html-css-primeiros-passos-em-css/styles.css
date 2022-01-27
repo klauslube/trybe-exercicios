@@ -1,0 +1,27 @@
+
+        h1 {
+            height: 65px;
+            color: orange;
+            font-family: sans-serif;
+        }
+        ul {
+            background-color: blue;
+        }
+        
+        body {
+            font-size: 16px;
+            text-align: left;
+            text-decoration: underline;
+            line-height: 40px;
+        }
+        p {
+            font-weight: 600;
+            font-size: 3em;
+        }
+        .same {
+            background-color: blue;
+        }
+        li {
+            color: blue;
+            background-color: red;
+        }
