@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+ul{
+    display: inline-block;    
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.first {
+    display: block;
+    width: 200px;
+    margin-left: 200px;
+}
+.second, .third {
+    display: inline-block;
+}
+
+.premio li {
+    display: inline;
+}
