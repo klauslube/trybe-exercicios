@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+  <script>
+    const elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+
+    const pai = document.getElementById('elementoOndeVoceEsta').parentElement; 
+    pai.style.color = 'green';
+
+    const primeiroFilhoDoFilho = elementoOndeVoceEsta.firstElementChild;
+    primeiroFilhoDoFilho.innerText = 'primeiroFilhoDoFilho';
+
+    const primeiroFilho = pai.firstElementChild;
+
+    const primeiroFilho2 = elementoOndeVoceEsta.previousElementSibling;
+
+    const Atenção = elementoOndeVoceEsta.nextSibling;
+
+    const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
+
+    const terceiroFilho2 = pai.lastElementChild.previousElementSibling
+
+    const irmaoElementoOndeVoceEsta = document.createElement('section');
+    const pai2 = document.getElementById('pai');
+    irmaoElementoOndeVoceEsta.id = 'irmaoElementoOndeVoceEsta';
+    pai2.appendChild(irmaoElementoOndeVoceEsta);
+
+    const filhoElementoOndeVoceEsta = document.createElement('section');
+    filhoElementoOndeVoceEsta.id = 'filhoElementoOndeVoceEsta';
+    elementoOndeVoceEsta.appendChild(filhoElementoOndeVoceEsta);
+
+    const filhoPrimeiroFilhoDoFilho = document.createElement('section');
+    filhoPrimeiroFilhoDoFilho.id = 'filhoPrimeiroFilhoDoFilho';
+    primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
+    primeiroFilhoDoFilho.appendChild(filhoPrimeiroFilhoDoFilho);
+
+
+    const terceiroFilho = filhoPrimeiroFilhoDoFilho
+      .parentElement // primeiroFilhoDoFilho
+      .parentElement // elementoOndeVoceEsta
+      .nextElementSibling; // terceiroFilho
+  </script>/
+</body>
+</html>
