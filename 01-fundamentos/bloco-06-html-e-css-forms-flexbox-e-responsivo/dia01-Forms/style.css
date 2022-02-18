@@ -1,0 +1,14 @@
+* {
+  margin: 10px 10px
+}
+.form-container {
+  border: 2px solid black;
+  text-align: left;
+}
+#textArea {
+  resize: none;
+}
+button {
+  margin-left: 30px;
+  padding: 10px;
+}

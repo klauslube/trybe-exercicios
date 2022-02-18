@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Concurso TrybeTrip</h1>
+  </header>
+  <main>
+    <form action="" method="get">
+    <div class="form-container">
+      
+      <label for="name-user">Nome:
+      <input required type="text" name="Name" id="name-user" minlength="10" maxlength="40">
+      </label>
+      <br>
+      <label for="email-user">Email:
+      <input required type="email" name="Email" id="email-user" minlength="10" maxlength="50">
+      </label>
+      <br>
+      <div class="option-container">
+        <label>Destino preferido:</label>
+        <br>
+        <input type="radio" name="option" id="opt1" class="option">
+        <label for="opt1">Cidade</label>
+        <input type="radio" name="option" id="opt2"  class="option">
+        <label for="opt2">Campo</label>
+        <input type="radio" name="option" id="opt3" class="option">
+        <label for="opt3">Praia</label>
+        <input type="radio" name="option" id="opt4" class="option">
+        <label for="opt4">Montanhas</label>
+        
+      </div>
+
+      <div class="text-container">
+        <label for="">Espaço para digitar a resposta:</label>
+        <br>
+        <textarea placeholder="Escreva porque você merece ganhar" name="textAnswer" cols="30" rows="10" id="textArea" maxlength="500"></textarea>
+      </div>
+      
+      <div class="date-container">
+        <label for="date">Qual a melhor data para realizar sua viagem?</label>
+        <input required type='date' name="date" id="date">
+      </div>
+
+      <div class="agree-container">
+        <label for="agree1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?:</label>
+        <input type="checkbox" name="agr1" id="agree1">
+        <br>
+        <label for="agree2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros:</label>
+        <input required type="checkbox" name="agr2" id="agree2">
+      </div>
+
+      </form>
+    </div> 
+
+  <button type="submit">Enviar</button>
+  <button type="reset">Apagar</button>
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
