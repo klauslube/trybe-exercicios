@@ -1,6 +1,15 @@
-const btnSend = document.querySelector('.send');
-const btnClean = document.querySelector('.send');
 
+const btnClean = document.querySelector('.send');
+const btnSend = document.querySelector('.send');
+const agree2 = document.querySelector('#agree2');
 function buttons(evento) {
-  const erase = document.getElementsByClassName('form-container');
+  if(agree2 === off){
+
+    evento.preventDefault();
+  }
+  
+}
+window.onload = function() {
+  
+  btnSend.addEventListener('click', buttons);
 }

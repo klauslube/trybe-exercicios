@@ -2,7 +2,6 @@
   margin: 10px 10px
 }
 .form-container {
-  border: 2px solid black;
   text-align: left;
 }
 #textArea {
@@ -11,4 +10,7 @@
 button {
   margin-left: 30px;
   padding: 10px;
+}
+#user {
+  margin-left: 20px;
 }
