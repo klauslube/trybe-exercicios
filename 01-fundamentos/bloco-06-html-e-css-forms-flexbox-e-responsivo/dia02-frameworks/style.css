@@ -1,0 +1,6 @@
+body {
+  background-color: aliceblue;
+}
+.container, label {
+  margin-bottom: 20px;
+}
