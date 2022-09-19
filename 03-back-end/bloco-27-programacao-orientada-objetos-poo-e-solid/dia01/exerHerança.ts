@@ -3,8 +3,8 @@ class Person {
   // birthDate: Date;
 
   constructor(private _name:string,private  _birthDate: Date) {
-    this._name = _name;
-    this._birthDate = _birthDate;
+    this.name = _name;
+    this.birthDate = _birthDate;
   }
 
   get name():string {
