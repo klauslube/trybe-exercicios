@@ -1,0 +1,9 @@
+use('aula_29_2');
+
+// db.filmes.find({'avaliacao.bom':{$gte:8}, ano: {$gte:2000}})
+// db.filmes.find({$and:[
+// {'avaliacao.bom':{$gte:8}},{ano: {$gt:2000}}]})
+
+// db.filmes.find({$nor:[{diretor:'Michael Bay'},{'avaliacao.ruim':10}]})
+
+// db.filmes.find({primeiro:{$exists:true}}).count()
