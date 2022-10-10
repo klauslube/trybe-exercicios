@@ -1,0 +1,29 @@
+use('class')
+
+// db.superheroes.countDocuments({});
+// db.superheroes.find({ 'aspects.height':{ $lt: 180 }});
+// db.superheroes.find({ 'aspects.height':{ $lt: 180 }}).count();
+// db.superheroes.find({ 'aspects.height':{ $lte: 180 }}).count();
+// db.superheroes.findOne({'aspects.height':{ $gte: 200 }})
+// db.superheroes.find({'aspects.height':{ $gte: 200 }}).count();
+// db.superheroes.find({'aspects.eyeColor':"green"})
+// db.superheroes.find({'aspects.hairColor': {$in: ['Black','No Hair']}})
+// db.superheroes.find({'aspects.height': {$not:{$gt:180}}}).count()
+// db.superheroes.find({$nor:[{'aspects.height':{$gt:180}},{race:'Human'}]})
+// db.superheroes.find({
+//   $and:[
+//     {publisher:"DC Comics"},
+//     {$or:[
+//       {'aspects.height':{$gte:180}},
+//       {'aspects.height':{$lte:200}}
+//     ]}
+//   ]
+// })
+
+// db.superheroes.find({
+//   $and:[
+//       {publisher:{$ne:"DC Comics"}},
+//       {'aspects.weight':{$gte:80, $lte:100}},
+//       { $or: [{ race: "Human" }, { race: "Mutant" }]}
+//     ]
+// })
